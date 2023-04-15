@@ -4,20 +4,20 @@
 
 # Credentials
 
-vcenter_username                = "nikoukam.tejaratshayan.com"
-vcenter_password                = "apass#2$wordW"
+vcenter_username                = " "
+vcenter_password                = " "
 ssh_username                    = "ubuntu"
 ssh_password                    = "ubuntu"
 
 # vSphere Objects
 
 vcenter_insecure_connection     = true
-vcenter_server                  = "vcenter.tejaratshayan.com"
-vcenter_datacenter              = "PAyam-Shatel"
-vcenter_host                    = "172.20.20.61"
-vcenter_datastore               = "Srv01-vDisk1-Raid10"
-vcenter_network                 = "LAN"
+vcenter_server                  = "192.168.14.40"
+vcenter_datacenter              = "ITG-DC-INES"
+vcenter_host                    = "192.168.14.43"
+vcenter_datastore               = "Datastore VMS"
+vcenter_network                 = "VM13"
 vcenter_folder                  = "Templates"
 
 # ISO Objects
-iso_path                        = "http/Ubuntu-20.04.5-Live-Server-Amd64.iso"
+iso_path                        = " "

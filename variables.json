@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "vm_name": "Ubuntu-20.04.5",  
   "vcenter_server":"vcenter.tejaratshayan.com",
   "vcenter_username":"nikoukam@tejaratshayan.com",
@@ -13,6 +14,23 @@
   "iso_urls": "http/Ubuntu-20.04.5-Live-Server-Amd64.iso",
   "iso_checksum": "hsa256:5035be37a7e9abbdc09f0d257f3e33416c1a0fb322ba860d42d74aa75c3468d4",
   "iso_paths": "[Srv01-vDisk1-Raid10] packer_cache/Ubuntu-20.04.5-Live-Server-Amd64.iso",
+=======
+  "vm_name": "Ubuntu-2004-Template",  
+  "vcenter_server":"",
+  "vcenter_username":"",
+  "vcenter_password":"",
+  "vcenter_datacenter": "",
+  "vcenter_datastore": "",
+  "vcenter_host": "",
+  "vcenter_folder": "",
+  "vcenter_network": "",
+  "guest_os_type": "ubuntu64Guest",
+  "http_directory": "http",
+  "iso_urls": "https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso",
+  "iso_checksum_type": "sha256",
+  "iso_checksum": "443511f6bf12402c12503733059269a2e10dec602916c0a75263e5d990f6bb93",
+  "iso_paths": "[Datastore VMS] /packer_cache/ubuntu-20.04.1-live-server-amd64.iso",
+>>>>>>> a9ae9ab6ac14b952216a2cc02124c345d8016bc2
   "ssh_username": "ubuntu",
   "ssh_password": "ubuntu"
 }
