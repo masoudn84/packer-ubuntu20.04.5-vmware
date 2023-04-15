@@ -1,0 +1,18 @@
+{
+  "vm_name": "Ubuntu-20.04.5",  
+  "vcenter_server":"vcenter.tejaratshayan.com",
+  "vcenter_username":"nikoukam@tejaratshayan.com",
+  "vcenter_password":"apass#2$wordW",
+  "vcenter_datacenter": "Payam-Shatel",
+  "vcenter_datastore": "Srv01-vDisk1-Raid10",
+  "vcenter_host": "172.20.20.61",
+  "vcenter_folder": "template",
+  "vcenter_network": "LAN",
+  "guest_os_type": "ubuntu64Guest",
+  "http_directory": "http",
+  "iso_urls": "http/Ubuntu-20.04.5-Live-Server-Amd64.iso",
+  "iso_checksum": "hsa256:5035be37a7e9abbdc09f0d257f3e33416c1a0fb322ba860d42d74aa75c3468d4",
+  "iso_paths": "[Srv01-vDisk1-Raid10] packer_cache/Ubuntu-20.04.5-Live-Server-Amd64.iso",
+  "ssh_username": "ubuntu",
+  "ssh_password": "ubuntu"
+}
